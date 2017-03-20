@@ -13,6 +13,7 @@ namespace WcfServiceLibrary1
     {
         [OperationContract]
         string GetData(int value);
+        String getDate();
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
